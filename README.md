@@ -40,13 +40,9 @@ Restore the first letter case of the Pig Latin word to match the English word.
 2. Complete the solution for one of the languages in the `translateEnglishToPigLatin` function.
    *You may add additional functions to assist with your solution if you wish.*
 
-3. Test your application by running it. See [Running](#running).
+3. Test your application by running it. See *Running* in the README.md for that language.
 
 4. Submit your solution. See [Submission](#submission).
-
-## Running
-
-See the README in the directory for each programming language.
 
 ## Submission
 
