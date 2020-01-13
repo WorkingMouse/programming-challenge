@@ -1,9 +1,12 @@
 # C# Build results
-[Dd]ebug/
-[Rr]elease/
-x64/
-[Bb]in/
-[Oo]bj/
+csharp/[Dd]ebug/
+csharp/[Rr]elease/
+csharp/x64/
+csharp/[Bb]in/
+csharp/[Oo]bj/
+
+# Java Class files
+java/*.class
 
 # OS generated files #
 .DS_Store*
