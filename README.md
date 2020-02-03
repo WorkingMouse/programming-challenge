@@ -34,6 +34,7 @@ Restore the first letter case of the Pig Latin word to match the English word.
 
 2. Create a branch, call it *submission*.
    ```bash
+   # Inside your programming-challenge directory
    $ git checkout -b submission
    ```
 
@@ -50,8 +51,9 @@ Restore the first letter case of the Pig Latin word to match the English word.
 
 1. Create a patch of your work by running:
    ```bash
+   # Inside your programming-challenge directory
    $ rm programming-challenge.patch
    $ git diff master..submission > programming-challenge.patch
    ```
 
-2. Email your patch file (`submission.patch`) to [hr@workingmouse.com.au](mailto:hr@workingmouse.com.au).
+2. Email your patch file (`programming-challenge.patch`) to [hr@workingmouse.com.au](mailto:hr@workingmouse.com.au).
