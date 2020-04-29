@@ -7,10 +7,10 @@ class Program {
 	}
 
 	private Map<String, String> phrases = Map.of(
-			"Hello", "Ellohay",
-			"Pig Latin", "Igpay Atinlay",
-			"The first month is Janurary", "Ethay irstfay onthmay isway Anuraryjay",
-			"The floor is sticky", "Ethay oorflay isway ickystay"
+		"Hello", "Ellohay",
+		"Pig Latin", "Igpay Atinlay",
+		"The first month is Janurary", "Ethay irstfay onthmay isway Anuraryjay",
+		"The floor is sticky", "Ethay oorflay isway ickystay"
 	);
 
 	public Program() {
@@ -25,8 +25,8 @@ class Program {
 	}
 
 	private void testEquals(String input, String expect, String actual) {
-		if (expect.toLowerCase() == actual.toLowerCase()) {
-			if (expect != expect.toLowerCase() && expect == actual) {
+		if (expect.toLowerCase().equals(actual.toLowerCase())) {
+			if (!expect.equals(expect.toLowerCase()) && expect.equals(actual)) {
 				System.out.printf("PASS (Bonus)! %s -> %s%n", input, actual);
 			} else {
 				System.out.printf("PASS! %s -> %s%n", input, actual);
