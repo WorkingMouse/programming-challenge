@@ -50,9 +50,10 @@ Restore the first letter case of the Pig Latin word to match the English word.
 **YOU WILL NOT BE ABLE TO PUSH DIRECTLY TO THIS REPOSITORY!!**
 
 1. Create a patch of your work by running:
+   *Replace `<name>` with your name.*
    ```bash
    # Inside your programming-challenge directory
-   $ git diff master..submission > programming-challenge.patch
+   $ git diff master..submission > programming-challenge-<name>.patch
    ```
 
-2. Email your patch file `programming-challenge-<name>.patch` (replace `<name>` with your name) to [jobs@workingmouse.com.au](mailto:jobs@workingmouse.com.au).
+2. Email your patch file `programming-challenge-<name>.patch` to [jobs@workingmouse.com.au](mailto:jobs@workingmouse.com.au).
