@@ -11,3 +11,6 @@ java/*.class
 # OS generated files #
 .DS_Store*
 Icon?
+
+# Patch files #
+*.patch
