@@ -38,7 +38,7 @@ Restore the first letter case of the Pig Latin word to match the English word.
    $ git checkout -b submission
    ```
 
-2. Complete the solution for one of the languages in the `translateEnglishToPigLatin` function.
+2. Complete the solution for one of the languages in the `translateEnglishToPigLatin` function.  
    *You may add additional functions, imports or phrases to assist with your solution if you wish.*
 
 3. Test your application by running it. See *Running* in the README.md for that language.
@@ -49,7 +49,7 @@ Restore the first letter case of the Pig Latin word to match the English word.
 
 **YOU WILL NOT BE ABLE TO PUSH DIRECTLY TO THIS REPOSITORY!!**
 
-1. Create a patch of your work by running:
+1. Create a patch of your work by running:  
    *Replace `<name>` with your name.*
    ```bash
    # Inside your programming-challenge directory
