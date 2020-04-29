@@ -4,9 +4,9 @@ This is the Pig Latin programming challenge.
 
 The challenge is to convert an English sentence into Pig Latin.
 
-- You can choose to complete it in JS, PHP, or C#.
+- You can choose to complete it in JS, PHP, C# or Java.
   Choose whichever language you are most comfortable with.
-- It should not take more than 1 hour.
+- It should not take more than 2 hours.
 
 ## Description
 
@@ -32,14 +32,14 @@ Restore the first letter case of the Pig Latin word to match the English word.
    $ cd programming-challenge
    ```
 
-2. Create a branch, call it *submission*.
+2. Create and checkout a branch, call it *submission*.
    ```bash
    # Inside your programming-challenge directory
    $ git checkout -b submission
    ```
 
 2. Complete the solution for one of the languages in the `translateEnglishToPigLatin` function.
-   *You may add additional functions to assist with your solution if you wish.*
+   *You may add additional functions, imports or phrases to assist with your solution if you wish.*
 
 3. Test your application by running it. See *Running* in the README.md for that language.
 
@@ -52,8 +52,7 @@ Restore the first letter case of the Pig Latin word to match the English word.
 1. Create a patch of your work by running:
    ```bash
    # Inside your programming-challenge directory
-   $ rm programming-challenge.patch
    $ git diff master..submission > programming-challenge.patch
    ```
 
-2. Email your patch file (`programming-challenge.patch`) to [jobs@workingmouse.com.au](mailto:jobs@workingmouse.com.au).
+2. Email your patch file `programming-challenge-<name>.patch` (replace `<name>` with your name) to [jobs@workingmouse.com.au](mailto:jobs@workingmouse.com.au).
