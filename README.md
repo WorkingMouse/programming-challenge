@@ -26,24 +26,32 @@ Restore the first letter case of the Pig Latin word to match the English word.
 
 ## Getting Started
 
-1. Open Git Bash
+*Using Open Git Bash*
 
-2. Clone the repository.
+1. Clone the repository.
    ```bash
    $ git clone https://github.com/WorkingMouse/programming-challenge.git
    $ cd programming-challenge
    ```
 
-3. Create and checkout a branch, call it *submission*.
+2. Create and checkout a branch, call it *submission*.
    ```bash
    # Inside your programming-challenge directory
    $ git checkout -b submission
    ```
 
-4. Complete the solution for one of the languages in the `translateEnglishToPigLatin` function.  
+3. Complete the solution for one of the languages in the `translateEnglishToPigLatin` function.  
    *You may add additional functions, imports or phrases to assist with your solution if you wish.*
 
-5. Test your application by running it. See *Running* in the README.md for that language.
+4. Test your application by running it. See *Running* in the README.md for that language.
+
+5. Commit your changes to your `submission` branch
+   *Replace `<message>` with a description of your change, e.g. "Completed Solution".*
+   ```bash
+   # Inside your programming-challenge directory
+   $ git add .
+   $ git commit -m "<message>"
+   ```
 
 6. Submit your solution. See [Submission](#submission).
 
@@ -51,13 +59,13 @@ Restore the first letter case of the Pig Latin word to match the English word.
 
 **YOU WILL NOT BE ABLE TO PUSH DIRECTLY TO THIS REPOSITORY!!**
 
-1. Open Git Bash
+*Using Open Git Bash*
 
-2. Create a patch of your work by running:  
+1. Create a patch of your work by running:  
    *Replace `<name>` with your name.*
    ```bash
    # Inside your programming-challenge directory
    $ git diff master..submission > programming-challenge-<name>.patch
    ```
 
-3. Email your patch file `programming-challenge-<name>.patch` to [jobs@workingmouse.com.au](mailto:jobs@workingmouse.com.au).
+2. Email your patch file `programming-challenge-<name>.patch` to [jobs@workingmouse.com.au](mailto:jobs@workingmouse.com.au).
