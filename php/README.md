@@ -10,7 +10,7 @@ For installation, see https://www.php.net/manual/en/install.php.
 
 ```bash
 $ cd php
-$ php programming-challenge.js
+$ php programming-challenge.php
 ```
 
 ### Docker
