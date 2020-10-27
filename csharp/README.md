@@ -6,7 +6,7 @@ Supported versions, SDK >3.x
 
 ### Local
 
-For installation, see https://www.php.net/manual/en/install.php.
+For installation, see https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install.
 
 ```bash
 $ cd csharp
