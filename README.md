@@ -68,4 +68,4 @@ Restore the first letter case of the Pig Latin word to match the English word.
    $ git diff master..submission > programming-challenge-<your name>.patch
    ```
 
-2. Email your patch file `programming-challenge-<name>.patch` to [jobs@workingmouse.com.au](mailto:jobs@workingmouse.com.au).
+2. Email your patch file `programming-challenge-<name>.patch` to [jobs@codebots.com](mailto:jobs@codebots.com).
