@@ -19,5 +19,5 @@ $ java Program
 *Update `<absolute-path-to>`*.
 
 ```bash
-$ docker run -it --rm -v <absolute-path-to>/programming-challenge/java:/usr/programming-challenge -w /usr/programming-challenge openjdk:13-jdk-alpine sh -c "javac programming-challenge.java && java Program"
+$ docker run -it --rm -v <absolute-path-to>/programming-challenge/java:/usr/programming-challenge -w /usr/programming-challenge openjdk:13-jdk-alpine sh -c "javac Program.java && java Program"
 ```
