@@ -1,20 +1,21 @@
-import java.util.Map;
+import java.util.*;
+import java.util.AbstractMap.SimpleEntry;
 
 class Program {
 
-	public static void main(String args[]){
+	public static void main(String args[]) {
 		new Program();
 	}
 
-	private Map<String, String> phrases = Map.of(
-		"Hello", "Ellohay",
-		"Pig Latin", "Igpay Atinlay",
-		"The first month is Janurary", "Ethay irstfay onthmay isway Anuraryjay",
-		"The floor is sticky", "Ethay oorflay isway ickystay"
+	private List<SimpleEntry<String, String>> phrases = Arrays.asList(
+		new SimpleEntry<>("Hello", "Ellohay"),
+		new SimpleEntry<>("Pig Latin", "Igpay Atinlay"),
+		new SimpleEntry<>("The first month is Janurary", "Ethay irstfay onthmay isway Anuraryjay"),
+		new SimpleEntry<>("The floor is sticky", "Ethay loorfay isway tickysay")
 	);
 
 	public Program() {
-		for (Map.Entry<String, String> pair : phrases.entrySet()) {
+		for (var pair : phrases) {
 			testEquals(pair.getKey(), pair.getValue(), translateEnglishToPigLatin(pair.getKey()));
 		}
 	}
