@@ -11,7 +11,7 @@ class Program {
 		new SimpleEntry<>("Hello", "Ellohay"),
 		new SimpleEntry<>("Pig Latin", "Igpay Atinlay"),
 		new SimpleEntry<>("The first month is Janurary", "Ethay irstfay onthmay isway Anuraryjay"),
-		new SimpleEntry<>("The floor is sticky", "Ethay loorfay isway tickysay")
+		new SimpleEntry<>("The floor is sticky", "Ethay oorflay isway ickystay")
 	);
 
 	public Program() {
